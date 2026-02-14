@@ -49,6 +49,15 @@ collections/
 hashmap/
 
 ```
+---
+
+## 👨‍💻 Author  
+
+**Pinku**  
+Java Developer  
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/pinkuna-prusty-55b487273/  
+📧 **Email:** pinkunaprusty108@gmail.com
 
 ---
 
