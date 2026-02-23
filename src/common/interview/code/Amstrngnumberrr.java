@@ -3,25 +3,15 @@ package common.interview.code;
 public class Amstrngnumberrr {
 
 	public static void main(String[] args) {
-		String a = "pinku4";
+		int year=2017;
 		
-		boolean p=false;
 		
-		for(int i=0;i<a.length();i++)
+		if((year%4==0&& year%100!=0)||(year%400==0))
 		{
-			char ch=a.charAt(i);
-			if(ch>='0'&&ch<='9')
-			{
-				p=true;
-				break;
-			}
-		}
-		if(p==false)
-		{
-			System.out.println("no");
+			System.out.println("This year is a leap year");
 		}else
 		{
-			System.out.println("yes");
+			System.out.println("Not a leap year");
 		}
 		
 		
