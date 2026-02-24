@@ -3,28 +3,29 @@ package common.interview.code;
 public class Amstrngnumberrr {
 
 	public static void main(String[] args) {
+		int a[] = { 2, 3, 5, 4, 8, 7, 9, 0, 1, 2, 3 };
 
-		int a[] = { 2, 0, 2, 0, 8, 9, 0, 90, 5 };
-		int nz = 0;
-		int z = 0;
+		int str = 0;
+		int end = a.length - 1;
+	
+		int target = 7;
+		boolean b = false;
+		while (str <=end) {
+			int mid = (str + end) / 2;
+			if (target == a[mid]) {
+				System.out.println(mid);
+				b = true;
+				break;
 
-		while (nz < a.length) {
-			if (a[nz] != 0) {
-
-				int temp = a[nz];
-				a[nz] = a[z];
-				a[z] = temp;
-
-				nz++;
-				z++;
+			} else if (a[mid] < target) {
+				str = mid + 1;
 			} else {
-				nz++;
+				end = mid - 1;
 			}
 		}
-
-		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i] + " ");
+		if (b == false) {
+			System.out.println("Number is not present in the array");
 		}
-
 	}
+
 }
