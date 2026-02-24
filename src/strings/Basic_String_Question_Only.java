@@ -1,18 +1,40 @@
 package strings;
 
 public class Basic_String_Question_Only {
+	public static void main(String[] args) {
+
 //	Basic String Questions (Very Common)
 //
 //	Reverse a String
 //
 //	Check if a String is Palindrome
-//
+//=================================================================
 //	Count number of vowels and consonants
-//
+
+//		String s="aeroplane";
+//		int vowel=0;
+//		int consonants=0;
+//		s=s.toLowerCase();
+//		for(int i=0;i<s.length();i++)
+//		{
+//			char ch=s.charAt(i);
+//			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+//			{
+//				vowel++;
+//			}else {
+//				consonants++;
+//			}
+//		}
+//		System.out.println("vowel:"+vowel);
+//		System.out.println("consonants::"+consonants);
+		// =================================================================
 //	Count occurrence of each character
 //
 //	Remove all spaces from a String
-//
+//		String s = "pinkuna prusty";
+//		s = s.replaceAll(" ", "");
+//		System.out.println(s);
+//=====================================================
 //	Convert lowercase to uppercase without using built-in functions
 //
 //	Find length of String without using length()
@@ -67,4 +89,5 @@ public class Basic_String_Question_Only {
 //
 //	Find minimum occurring character
 
+	}
 }
