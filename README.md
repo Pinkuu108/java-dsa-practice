@@ -46,7 +46,6 @@ arrays/
 strings/
 linkedlist/
 collections/
-hashmap/
 
 ```
 ---
